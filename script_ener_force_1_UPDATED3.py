@@ -1,3 +1,6 @@
+# A fully self-consistent Python implementation for fitting linear SNAP models to energies and forces using ridge regression. 
+# The pipeline handles LAMMPS sna/atom and snad/atom dumps, species-aware normalization, unit conversion, energy–force joint training, 
+# and incremental learning-curve analysis — all without a global intercept, using a single physically consistent C0 term.
 import numpy as np
 import pandas as pd
 from dataclasses import dataclass
